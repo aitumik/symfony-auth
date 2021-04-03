@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}This is the homepage!{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+        <div>{{ post }}</div>
+    {%  endfor %}
+{% endblock content %}
